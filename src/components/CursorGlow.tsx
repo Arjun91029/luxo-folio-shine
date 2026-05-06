@@ -24,7 +24,7 @@ const CursorGlow = () => {
       className="pointer-events-none fixed inset-0 z-[9999] transition-opacity duration-300"
       style={{
         opacity: visible ? 1 : 0,
-        background: `radial-gradient(600px circle at ${pos.x}px ${pos.y}px, hsl(var(--gold) / 0.18), hsl(45 85% 72% / 0.08) 25%, transparent 60%)`,
+        background: `radial-gradient(250px circle at ${pos.x}px ${pos.y}px, hsl(var(--gold) / 0.14), hsl(45 85% 72% / 0.05) 30%, transparent 65%)`,
         mixBlendMode: "screen",
       }}
     />

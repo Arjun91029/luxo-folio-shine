@@ -87,22 +87,24 @@ const Index = () => {
             <span className="text-gradient-gold">Arjun</span>
             <span className="text-foreground">.</span>
           </a>
-          <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
-            <a href="#about" className="hover:text-gold transition-colors">About</a>
-            <a href="#experience" className="hover:text-gold transition-colors">Experience</a>
-            <a href="#projects" className="hover:text-gold transition-colors">Projects</a>
-            <a href="#skills" className="hover:text-gold transition-colors">Skills</a>
-            <a href="#contact" className="hover:text-gold transition-colors">Contact</a>
+          <div className="flex items-center gap-6 ml-auto">
+            <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
+              <a href="#about" className="hover:text-gold transition-colors">About</a>
+              <a href="#experience" className="hover:text-gold transition-colors">Experience</a>
+              <a href="#projects" className="hover:text-gold transition-colors">Projects</a>
+              <a href="#skills" className="hover:text-gold transition-colors">Skills</a>
+              <a href="#contact" className="hover:text-gold transition-colors">Contact</a>
+            </div>
+            <Button
+              asChild
+              size="sm"
+              className="bg-gradient-gold text-primary-foreground hover:opacity-90 border-0 font-medium"
+            >
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                Hire Me <ArrowUpRight className="ml-1 h-4 w-4" />
+              </a>
+            </Button>
           </div>
-          <Button
-            asChild
-            size="sm"
-            className="bg-gradient-gold text-primary-foreground hover:opacity-90 border-0 font-medium"
-          >
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-              Hire Me <ArrowUpRight className="ml-1 h-4 w-4" />
-            </a>
-          </Button>
         </nav>
       </header>
 

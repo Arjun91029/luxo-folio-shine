@@ -100,7 +100,7 @@ const Index = () => {
               size="sm"
               className="bg-gradient-gold text-primary-foreground hover:opacity-90 border-0 font-medium"
             >
-              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/arjun-kumar-yadav-678227233" target="_blank" rel="noreferrer">
                 Hire Me <ArrowUpRight className="ml-1 h-4 w-4" />
               </a>
             </Button>
@@ -368,7 +368,7 @@ const Index = () => {
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-gold hover:bg-gold/10">
                   <a
-                    href="https://claude.ai/public/artifacts/635014bd-43c8-4da2-a598-f1e2487825cc"
+                    href="https://www.linkedin.com/in/arjun-kumar-yadav-678227233"
                     target="_blank"
                     rel="noreferrer"
                   >

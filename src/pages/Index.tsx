@@ -100,7 +100,7 @@ const Index = () => {
               size="sm"
               className="bg-gradient-gold text-primary-foreground hover:opacity-90 border-0 font-medium"
             >
-              <a href="https://www.linkedin.com/in/arjun-kumar-yadav-678227233" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/arjun-kumar-yadav-678227233" target="_blank" rel="noopener noreferrer">
                 Hire Me <ArrowUpRight className="ml-1 h-4 w-4" />
               </a>
             </Button>
@@ -370,7 +370,7 @@ const Index = () => {
                   <a
                     href="https://www.linkedin.com/in/arjun-kumar-yadav-678227233"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
                   </a>

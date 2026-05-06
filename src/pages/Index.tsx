@@ -16,6 +16,7 @@ import {
   Briefcase,
   Sparkles,
 } from "lucide-react";
+import CursorGlow from "@/components/CursorGlow";
 
 const skills = {
   Languages: ["C/C++", "Python", "SQL"],
@@ -78,6 +79,7 @@ const certifications = [
 const Index = () => {
   return (
     <div className="min-h-screen overflow-x-hidden">
+      <CursorGlow />
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-xl bg-background/60 border-b border-border/50">
         <nav className="container flex items-center justify-between h-16">

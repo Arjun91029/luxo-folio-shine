@@ -53,6 +53,7 @@ const experience = [
     period: "March 2025 – Present",
     points: [
       "Analyse operational and production data to identify bottlenecks and improvement opportunities.",
+      "Drove rejection rate down from 23% to 9% through root-cause analysis on casting & polishing.",
       "Build interactive dashboards in Power BI and Excel (VBA) to monitor KPIs.",
       "Collaborate with cross-functional teams driving measurable cost savings.",
       "Generate management reports tracking expenses, productivity and ME-wise P&L.",

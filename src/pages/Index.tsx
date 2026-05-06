@@ -53,6 +53,7 @@ const experience = [
     period: "March 2025 – Present",
     points: [
       "Analyse operational and production data to identify bottlenecks and improvement opportunities.",
+      "Drove rejection rate down from 23% to 9% through root-cause analysis on casting & polishing.",
       "Build interactive dashboards in Power BI and Excel (VBA) to monitor KPIs.",
       "Collaborate with cross-functional teams driving measurable cost savings.",
       "Generate management reports tracking expenses, productivity and ME-wise P&L.",
@@ -164,14 +165,6 @@ const Index = () => {
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>
-              </div>
-              <div className="absolute -bottom-4 -left-4 bg-card border border-gold rounded-2xl px-5 py-3 shadow-luxury">
-                <div className="text-2xl font-serif font-bold text-gradient-gold">300+</div>
-                <div className="text-xs text-muted-foreground">DSA & SQL solved</div>
-              </div>
-              <div className="absolute -top-4 -right-4 bg-card border border-gold rounded-2xl px-5 py-3 shadow-luxury">
-                <div className="text-2xl font-serif font-bold text-gradient-gold">23→9%</div>
-                <div className="text-xs text-muted-foreground">Rejection cut</div>
               </div>
             </div>
           </div>
